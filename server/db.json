@@ -1,0 +1,123 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Makarenko",
+      "age": "25",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "isAdmin": true
+    },
+    {
+      "id": "2",
+      "name": "Sam Jenitial",
+      "age": "25",
+      "email": "user@gmail.com",
+      "isAdmin": false,
+      "password": "User@123"
+    }
+  ],
+  "passengers": [
+    {
+      "checkedIn": false,
+      "isWheelChair": true,
+      "isInfant": false,
+      "isSpecialMeal": false,
+      "name": "Jashmen",
+      "passport": "SFLKSFKFJ3939",
+      "dob": "2022-01-07",
+      "flight": "f3",
+      "seat": "D1",
+      "id": 2,
+      "createdAt": 1591537068140,
+      "address": "Bangalore"
+    },
+    {
+      "checkedIn": true,
+      "isWheelChair": true,
+      "isInfant": true,
+      "isSpecialMeal": true,
+      "name": "Jeeva",
+      "passport": "10004",
+      "dob": "2019-06-13",
+      "flight": "f1",
+      "seat": "D2",
+      "id": 4,
+      "createdAt": 1591537137376,
+      "address": "Chenai",
+      "addedAncillaryServices": [
+        "Service 3",
+        "New service"
+      ]
+    },
+    {
+      "name": "Mark Zuckerberg",
+      "passport": "",
+      "address": "",
+      "dob": "2022-03-17T12:15:45.000Z",
+      "flight": "f2",
+      "isWheelChair": true,
+      "isInfant": false,
+      "isSpecialMeal": false,
+      "seat": "S2",
+      "checkedIn": false,
+      "createdAt": 1646655301665,
+      "id": 6
+    },
+    {
+      "name": "Shradha suman Praharaj",
+      "passport": "",
+      "address": "",
+      "dob": null,
+      "flight": "f1",
+      "isWheelChair": false,
+      "isInfant": false,
+      "isSpecialMeal": false,
+      "seat": "D3",
+      "checkedIn": false,
+      "createdAt": 1647443595023,
+      "id": 7
+    }
+  ],
+  "ancillaryList": [
+    {
+      "id": 1,
+      "name": "Service 1",
+      "flight": "f2",
+      "itemType": "2"
+    },
+    {
+      "id": 2,
+      "name": "Service 2",
+      "flight": "f1",
+      "itemType": "1"
+    },
+    {
+      "id": 3,
+      "name": "Service 3",
+      "flight": "f1",
+      "itemType": "3"
+    },
+    {
+      "flight": "f1",
+      "name": "New service",
+      "itemType": "2",
+      "createdAt": 1646648140829,
+      "id": 4
+    },
+    {
+      "flight": "f2",
+      "name": "Service 4",
+      "itemType": "2",
+      "createdAt": 1646659970043,
+      "id": 5
+    },
+    {
+      "flight": "f2",
+      "name": "Service 8",
+      "itemType": "2",
+      "createdAt": 1647434949746,
+      "id": 6
+    }
+  ]
+}
